@@ -1,0 +1,39 @@
+body{background-color:rgb(245, 253, 169);
+    background-image:url("https://img.lovepik.com/photo/40018/4080.jpg_wh300.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+p {
+    color:black;
+    
+   
+    padding:30px;
+    margin:10px;
+}
+table,td,th{
+    border:1px solid white;
+    
+    border-radius: 10px;
+    text-align:center;border-collapse:collapse;
+    
+}
+th,td{
+    background-color:rgb(240, 191, 199);
+    padding:10px;
+    
+    
+}
+table {
+    border-spacing: 10px;
+}
+td:nth-child(odd){
+  background-color:cadetblue;
+}
+tr:nth-child(odd){
+    background-color:cadetblue;
+  }
+
+td:hover{
+    border:solid red;
+}
