@@ -85,3 +85,38 @@ hr{
     color: #f1faee;
     padding: 5px;
 }
+.main-body{
+    background-color: #1d3557;
+    padding: 10px;
+}
+.main-body>h2{
+    padding: 10px;
+    letter-spacing: 1px;
+    color: #ffb703;
+    font-size:30px;
+}
+.main-body>p{
+    padding: 10px;
+    letter-spacing: 1px;
+    color: #f1faee;
+    font-size:20px;
+}
+.main-body>ul{
+    padding-left: 50px;
+    letter-spacing: 1px;
+    font-size:20px;
+    color: #f1faee;
+    text-decoration: dotted;
+}
+code{
+    color:#f1faee;
+    font-size: 25px;
+    display: inline;
+    background-color: #4f5050;
+}
+.green{
+    color: rgb(0, 255, 0);
+}
+.double-quote{
+    color: orangered;
+}
