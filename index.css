@@ -108,12 +108,15 @@ hr{
     color: #f1faee;
     text-decoration: dotted;
 }
-code{
+pre{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     color:#f1faee;
     font-size: 20px;
     letter-spacing: 1px;
-    display: inline;
     background-color: #4f5050;
+    justify-content: center;
 }
 .green{
     color: rgb(0, 255, 0);
