@@ -90,13 +90,19 @@ hr{
     padding: 10px;
 }
 .main-body>h2{
-    padding: 10px;
+    padding: 15px;
     letter-spacing: 1px;
     color: #ffb703;
     font-size:30px;
 }
+.main-body>h3{
+    padding: 15px;
+    letter-spacing: 1px;
+    color: #ffb703;
+    font-size:25px;
+}
 .main-body>p{
-    padding: 10px;
+    padding: 15px;
     letter-spacing: 1px;
     color: #f1faee;
     font-size:20px;
@@ -108,7 +114,12 @@ hr{
     color: #f1faee;
     text-decoration: dotted;
 }
+.main-body>p>a{
+    text-decoration: none;
+    color:#f1faee
+}
 pre{
+    padding:15px;
     margin-left: 10px;
     margin-right: 10px;
     color:#f1faee;
@@ -120,6 +131,9 @@ pre{
 .green{
     color: rgb(0, 255, 0);
 }
-.double-quote{
+.orange{
     color: rgb(254, 139, 98);
+}
+.error{
+    border: 2px solid red;
 }

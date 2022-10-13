@@ -1,13 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>syntext</title>
     <link rel="stylesheet" href="../index.css">
+    <link rel="icon" href="../imgs/python-logo-transparent-4.png">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5003826180390736"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <h1 class="main-heading">Syntex</h1>
+    <h1 class="main-heading">Python Syntax</h1>
+    <div class="main-body">
+        <h2>Execute Python Syntax</h2>
+        <p>As we learned in the previous page, Python syntax can be executed by writing directly in the Command Line:
+        </p>
+        <pre>>>> print("Hello, World!")
+Hello, World!</pre>
+        <p>Or by creating a python file on the server, using the .py file extension, and running it in the Command Line:
+        </p>
+        <pre>C:\Users\Your Name>python myfile.py</pre>
+        <h2>Python Indentation</h2>
+        <p>Indentation refers to the spaces at the beginning of a code line.</p>
+        <p>Where in other programming languages the indentation in code is for readability only, the indentation in
+            Python is very important.</p>
+        <p>Python uses indentation to indicate a block of code.</p>
+        <pre><code>
+           <span class="orange">if</span> 5>2:
+                <span class="orange">print</span>("Five is greater than two!")</code>
+        </pre>
+        <p>Python will give you an error if you skip the indentation:</p>
+        <h3>Example</h3>
+        <p>Syntax Error:</p>
+        <pre class="error">
+            <span class="orange">if</span> 5 > 2:
+            <span class="orange">print</span>("Five is greater than two!")</code></pre>
+        <p>The number of spaces is up to you as a programmer, the most common use is four, but it has to be at least
+            one.</p>
+        <h3>Example</h3>
+        <pre>
+            <code>
+                if 5 > 2:
+                    print("Five is greater than two!") 
+                if 5 > 2:
+                        print("Five is greater than two!")</code>
+        </pre>
+        <p>You have to use the same number of spaces in the same block of code, otherwise Python will give you an error:
+        </p>
+        <h3>Example</h3>
+        <p>Syntax Error:</p>
+        <pre class="error">
+            <code>
+                if 5 > 2:
+                    print("Five is greater than two!")
+                        print("Five is greater than two!")
+            </code></pre>
+        <h2>Python Variables</h2>
+        <p>In Python, variables are created when you assign a value to it:</p>
+        <h3>Example</h3>
+        <p>Variables in Python:</p>
+        <pre><code>
+            x = 5
+            y = "Hello, World!"
+        </code></pre>
+        <p>Python has no command for declaring a variable.</p>
+        <p>You will learn more about variables in the Python Variables chapter.</p>
+        <h2>Comments</h2>
+        <p>Python has commenting capability for the purpose of in-code documentation.</p>
+        <p>Comments start with a #, and Python will render the rest of the line as a comment:</p>
+        <h3>Example</h3>
+        <p>Comments in Python:</p>
+        <pre><code>
+            #This is a comment.
+            print("Hello, World!")
+        </code></pre>
+    </div>
 </body>
+
 </html>
