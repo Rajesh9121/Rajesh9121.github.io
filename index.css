@@ -110,7 +110,8 @@ hr{
 }
 code{
     color:#f1faee;
-    font-size: 25px;
+    font-size: 20px;
+    letter-spacing: 1px;
     display: inline;
     background-color: #4f5050;
 }
@@ -118,5 +119,5 @@ code{
     color: rgb(0, 255, 0);
 }
 .double-quote{
-    color: orangered;
+    color: rgb(254, 139, 98);
 }
